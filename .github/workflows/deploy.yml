@@ -33,4 +33,4 @@ jobs:
         environment_name: Java-springboot-application-env
         version_label: ${{ github.sha }}
         region: us-east-1  # change to your AWS region
-        deployment_package: deploy.zip
+        deployment_package: target/springboot-example.jar
